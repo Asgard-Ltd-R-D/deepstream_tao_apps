@@ -1,0 +1,20 @@
+make -C nvdsinfer_custom_impl_BodyPose3DNet
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/swish/swish_computer_vision/deepstream_tao_apps/apps/tao_others/deepstream-pose-classification/nvdsinfer_custom_impl_BodyPose3DNet'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/swish/swish_computer_vision/deepstream_tao_apps/apps/tao_others/deepstream-pose-classification/nvdsinfer_custom_impl_BodyPose3DNet'
+make -C nvdspreprocess_lib
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/swish/swish_computer_vision/deepstream_tao_apps/apps/tao_others/deepstream-pose-classification/nvdspreprocess_lib'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/swish/swish_computer_vision/deepstream_tao_apps/apps/tao_others/deepstream-pose-classification/nvdspreprocess_lib'
+make -C infer_pose_classification_parser
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/swish/swish_computer_vision/deepstream_tao_apps/apps/tao_others/deepstream-pose-classification/infer_pose_classification_parser'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/swish/swish_computer_vision/deepstream_tao_apps/apps/tao_others/deepstream-pose-classification/infer_pose_classification_parser'
+make -C postprocesslib_impl
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: Entering directory '/home/swish/swish_computer_vision/deepstream_tao_apps/apps/tao_others/deepstream-pose-classification/postprocesslib_impl'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/swish/swish_computer_vision/deepstream_tao_apps/apps/tao_others/deepstream-pose-classification/postprocesslib_impl'
