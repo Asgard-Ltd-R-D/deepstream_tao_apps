@@ -11,7 +11,7 @@
 ################################################################################
 
 source-list:
-   list: file:///opt/nvidia/deepstream/deepstream/samples/streams/sample_walk.mov;file:///opt/nvidia/deepstream/deepstream/samples/streams/sample_walk.mov
+   list: file:////home/swish/swish_computer_vision/DeepStream-Yolo-Pose/raw.mp4
 
 streammux:
   width: 1280
@@ -49,9 +49,9 @@ sink:
   #1 filesink generate the out.mp4 file in the current directory
   #2 rtspsink publish at rtsp://localhost:8554/ds-test
   #3 displaysink
-  sink-type: 1
+  sink-type: 3
   #encoder type 0=Hardware 1=Software
-  enc-type: 0
+  enc-type: 1
 
 
 
