@@ -1,0 +1,22 @@
+*.onnx
+*.so
+*.log
+*.o
+*.bin
+*.engine
+*.pb
+*.tlt
+*.cal
+apps/tao_classifier/ds-tao-classifier
+apps/tao_detection/ds-tao-detection
+apps/tao_others/deepstream-mdx-perception-app/deepstream-mdx-perception-app
+apps/tao_others/deepstream-pose-classification/deepstream-pose-classification-app
+apps/tao_others/deepstream-nvocdr-app/deepstream-nvocdr-app
+apps/tao_others/deepstream_lpr_app/deepstream-lpr-app/deepstream-lpr-app
+apps/tao_segmentation/ds-tao-segmentation
+models/mask2former/config.pbtxt
+models/nvocdr/character_list
+models/yolov3/cal.bin.trt10_jetson
+models/yolov3/cal.bin.trt10_x86
+models/yolov4-tiny/cal.bin.trt10_jetson
+models/yolov4-tiny/cal.b in.trt10_x86
